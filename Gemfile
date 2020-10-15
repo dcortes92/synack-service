@@ -52,5 +52,5 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-gem "google_custom_search_api"
-gem "rack-cors"
+gem 'google_custom_search_api'
+gem 'rack-cors', :require => 'rack/cors'
